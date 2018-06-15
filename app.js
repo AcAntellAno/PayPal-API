@@ -5,9 +5,9 @@ const paypal = require('paypal-rest-sdk');
 paypal.configure({
   mode: 'sandbox', //sandbox or live
   client_id:
-    'AbGX-AzvcdE30B3gODmzPjPLnZ3mu2D7AGX6pHuwoyylupqL-hXDfkvleqLN3oIGtZkBH8Oc1DVNNUmf',
+    '#your_client_id',
   client_secret:
-    'EHWs6xj69wG09Uw2GmKcYMP1zkBDqH_eCLZiK2Ol5IzSdq3kAULTxKyeJXaBIbF6frJq_KBmid9woCPV'
+    '#your_client_secrect'
 });
 
 const app = express();
